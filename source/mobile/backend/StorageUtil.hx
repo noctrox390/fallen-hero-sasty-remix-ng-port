@@ -7,6 +7,7 @@ import lime.system.JNI;
 import lime.app.Application;
 import lime.system.System;
 #end
+
 /**
  * A storage class for mobile.
  * @author Karim Akra and Homura Akemi (HomuHomu833)
@@ -46,8 +47,8 @@ class StorageUtil
 		var packageName:String = getPackageName(context);
 
 		return '/storage/emulated/0/Android/data/$packageName/files/';
-		//return '/storage/emulated/0/Android/data/com.U53RDV.psychengine/files/';
 	}
+
 	public static function requestPermissions():Void
 	{
 		if (AndroidVersion.SDK_INT >= AndroidVersionCode.TIRAMISU)
@@ -85,6 +86,36 @@ class StorageUtil
 		{
 			CoolUtil.showPopUp(Language.getPhrase('create_directory_error', 'Please create directory to\n{1}\nPress OK to close the game', [StorageUtil.getExternalStorageDirectory()]), Language.getPhrase('mobile_error', "Error!"));
 			lime.system.System.exit(1);
+		}
+
+		// Copia automática de los mods al inicio tras permisos
+		haxe.Timer.delay(() -> {
+			try {
+				var targetDir = StorageUtil.getExternalStorageDirectory() + 'mods/';
+				if (!FileSystem.exists(targetDir)) FileSystem.createDirectory(targetDir);
+
+				for (mod in FileSystem.readDirectory("mods/")) {
+					copyFolder('mods/$mod', '$targetDir$mod');
+					trace('Mod copiado: $mod');
+				}
+			} catch (e:Dynamic) {
+				trace("Error auto-copiando mods: " + e.message);
+			}
+		}, 1500); // Espera 1.5 segundos
+	}
+
+	private static function copyFolder(from:String, to:String) {
+		if (!FileSystem.exists(to)) FileSystem.createDirectory(to);
+
+		for (file in FileSystem.readDirectory(from)) {
+			var src = '$from/$file';
+			var dst = '$to/$file';
+
+			if (FileSystem.isDirectory(src)) {
+				copyFolder(src, dst); // Copia subcarpetas
+			} else {
+				File.copy(src, dst); // Copia archivos
+			}
 		}
 	}
 	#end
