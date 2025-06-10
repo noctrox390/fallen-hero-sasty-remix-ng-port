@@ -1,0 +1,10 @@
+value 1
+1 = camGame - OFF
+2 = camHUD - OFF
+3 = camGame y camHUD - OFF
+4 = camGame - ON
+5 = camHUD - ON
+0 = camGame y camHUD - ON
+
+value 2 TIEMPO
+EJEMPLO - (0.5 RÁPIDO) o (2 LENTO)

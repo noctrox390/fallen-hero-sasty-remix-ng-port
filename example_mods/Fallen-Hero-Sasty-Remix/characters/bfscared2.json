@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				517,
+				380
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "idle",
+			"indices": [],
+			"name": "scaredbf Idle"
+		},
+		{
+			"offsets": [
+				527,
+				374
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "scaredbf Left"
+		},
+		{
+			"offsets": [
+				509,
+				379
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "scaredbf Down"
+		},
+		{
+			"offsets": [
+				518,
+				376
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singUP",
+			"indices": [],
+			"name": "scaredbf Up"
+		},
+		{
+			"offsets": [
+				516,
+				379
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "scaredbf Right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfscared21",
+	"position": [
+		835,
+		895
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		114,
+		196,
+		218
+	],
+	"camera_position": [
+		660,
+		-495
+	],
+	"sing_duration": 4,
+	"scale": 2.375,
+	"_editor_isPlayer": true
+}

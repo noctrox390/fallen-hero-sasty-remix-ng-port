@@ -1,0 +1,9 @@
+v1:whitebg = bg blanco y sprite negros
+v1:blackbg = bg negro y sprite blancos
+v1:redbg = bg rojo y sprite negros
+v1:skybluebg = bg celeste y sprite negros
+v1:greenbg = bg verde y sprite negros
+v1:bluebg = bg azul y sprite negros
+v1:yellowbg = bg amarillo y sprite negros
+v1:purplebg = bg morado y sprite negros
+v1:off

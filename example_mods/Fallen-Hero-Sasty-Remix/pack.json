@@ -1,0 +1,8 @@
+{
+	"name": "Fallen Hero Sasty Remix",
+	"description": "Chart de BRUNOFNF",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [255, 112, 0],
+	"iconFramerate": 10
+}

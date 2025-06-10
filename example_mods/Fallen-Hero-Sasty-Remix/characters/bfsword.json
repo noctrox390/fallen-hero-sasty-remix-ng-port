@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-24,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootRIGHT",
+			"indices": [],
+			"name": "Bf Shoot R"
+		},
+		{
+			"offsets": [
+				110,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootLEFT",
+			"indices": [],
+			"name": "Bf Shoot L"
+		},
+		{
+			"offsets": [
+				-27,
+				-15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootUP",
+			"indices": [],
+			"name": "Bf Shoot U"
+		},
+		{
+			"offsets": [
+				3,
+				-112
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootDOWN",
+			"indices": [],
+			"name": "Bf Shoot D"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				78,
+				-134
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle sword0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				70,
+				123
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "block good0"
+		},
+		{
+			"offsets": [
+				70,
+				123
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "block good0"
+		},
+		{
+			"offsets": [
+				225,
+				101
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "block sick0"
+		},
+		{
+			"offsets": [
+				225,
+				101
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "block sick0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/BfSwordUp1",
+	"position": [
+		240,
+		590
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		140,
+		-110
+	],
+	"sing_duration": 4,
+	"scale": 3.7,
+	"_editor_isPlayer": true
+}

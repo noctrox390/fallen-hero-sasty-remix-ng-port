@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- OPTIMIZADO POR NOCTROX GATO -->
+<TextureAtlas imagePath="Finn2">
+    <SubTexture name="down0000.png" x="0" y="0" width="343" height="171" frameWidth="449" frameHeight="449" frameX="-100" frameY="-230"/>
+    <SubTexture name="down0001.png" x="353" y="0" width="221" height="114" frameWidth="449" frameHeight="449" frameX="-104" frameY="-286"/>
+    <SubTexture name="down0002.png" x="584" y="0" width="226" height="115" frameWidth="449" frameHeight="449" frameX="-102" frameY="-289"/>
+    <SubTexture name="down0003.png" x="820" y="0" width="226" height="116" frameWidth="449" frameHeight="449" frameX="-100" frameY="-285"/>
+    <SubTexture name="down0004.png" x="1056" y="0" width="222" height="114" frameWidth="449" frameHeight="449" frameX="-102" frameY="-283"/>
+    <SubTexture name="down0005.png" x="0" y="181" width="220" height="114" frameWidth="449" frameHeight="449" frameX="-100" frameY="-283"/>
+    <SubTexture name="idle0000.png" x="230" y="181" width="187" height="197" frameWidth="449" frameHeight="449" frameX="-106" frameY="-203"/>
+    <SubTexture name="idle0001.png" x="427" y="181" width="184" height="196" frameWidth="449" frameHeight="449" frameX="-109" frameY="-203"/>
+    <SubTexture name="idle0002.png" x="621" y="181" width="184" height="196" frameWidth="449" frameHeight="449" frameX="-110" frameY="-204"/>
+    <SubTexture name="idle0003.png" x="815" y="181" width="184" height="194" frameWidth="449" frameHeight="449" frameX="-110" frameY="-204"/>
+    <SubTexture name="idle0004.png" x="1009" y="181" width="185" height="195" frameWidth="449" frameHeight="449" frameX="-109" frameY="-203"/>
+    <SubTexture name="idle0005.png" x="1204" y="181" width="186" height="196" frameWidth="449" frameHeight="449" frameX="-107" frameY="-202"/>
+    <SubTexture name="left0000.png" x="0" y="388" width="249" height="200" frameWidth="449" frameHeight="449" frameX="-50" frameY="-210"/>
+    <SubTexture name="left0001.png" x="259" y="388" width="251" height="199" frameWidth="449" frameHeight="449" frameX="-48" frameY="-212"/>
+    <SubTexture name="left0002.png" x="520" y="388" width="252" height="196" frameWidth="449" frameHeight="449" frameX="-47" frameY="-215"/>
+    <SubTexture name="left0003.png" x="782" y="388" width="248" height="201" frameWidth="449" frameHeight="449" frameX="-51" frameY="-213"/>
+    <SubTexture name="left0004.png" x="1040" y="388" width="246" height="205" frameWidth="449" frameHeight="449" frameX="-53" frameY="-208"/>
+    <SubTexture name="right0000.png" x="0" y="603" width="287" height="133" frameWidth="449" frameHeight="449" frameX="-106" frameY="-267"/>
+    <SubTexture name="right0001.png" x="297" y="603" width="290" height="132" frameWidth="449" frameHeight="449" frameX="-107" frameY="-269"/>
+    <SubTexture name="right0002.png" x="597" y="603" width="291" height="133" frameWidth="449" frameHeight="449" frameX="-105" frameY="-269"/>
+    <SubTexture name="right0003.png" x="898" y="603" width="281" height="138" frameWidth="449" frameHeight="449" frameX="-105" frameY="-263"/>
+    <SubTexture name="right0004.png" x="0" y="751" width="272" height="142" frameWidth="449" frameHeight="449" frameX="-109" frameY="-259"/>
+    <SubTexture name="right0005.png" x="282" y="751" width="263" height="144" frameWidth="449" frameHeight="449" frameX="-110" frameY="-258"/>
+    <SubTexture name="up0000.png" x="555" y="751" width="161" height="256" frameWidth="449" frameHeight="449" frameX="-123" frameY="-153"/>
+    <SubTexture name="up0001.png" x="726" y="751" width="163" height="251" frameWidth="449" frameHeight="449" frameX="-124" frameY="-157"/>
+    <SubTexture name="up0002.png" x="899" y="751" width="162" height="252" frameWidth="449" frameHeight="449" frameX="-126" frameY="-155"/>
+    <SubTexture name="up0003.png" x="1071" y="751" width="158" height="249" frameWidth="449" frameHeight="449" frameX="-127" frameY="-156"/>
+    <SubTexture name="up0004.png" x="1239" y="751" width="155" height="250" frameWidth="449" frameHeight="449" frameX="-129" frameY="-158"/>
+</TextureAtlas>
